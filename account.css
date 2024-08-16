@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(rgb(255, 255, 255), rgb(247, 246, 188));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.contact{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.picture img{
+    filter: opacity(75%);
+    transform: rotateZ(-10deg);
+}
+.picture, .box{
+    padding-right: 75px;
+}
+.box {
+    background-color: rgb(119, 119, 119);
+    padding: 25px;
+    margin-right: 200px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;   
+}
+.box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #252525;
+}
+.form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #3b3b3b;
+    padding: 10px;
+    width: 300px;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+.form :focus {
+    border-color: #007bff;
+    outline: none;
+}
+form a{
+    display: inline;
+    font-size: 10px;
+    text-decoration: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form button {
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    background-color: #4e8bfd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+}
+
+.form button:hover {
+    background-color: #6eaff8;
+}
+
+@media only screen and (max-width: 600px){
+    .picture, .box{
+        flex-basis: 100%;
+    }
+} 
