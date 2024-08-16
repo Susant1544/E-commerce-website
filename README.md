@@ -1,4 +1,4 @@
 # E-commerce-website
-a e-commerce website for men
-used pure html and css with a little bit of bootstrap and javascript
-only a home page front-end project
+A e-commerce website for men. 
+Used pure html and css with a little bit of bootstrap and javascript. 
+Only a home page front-end project
